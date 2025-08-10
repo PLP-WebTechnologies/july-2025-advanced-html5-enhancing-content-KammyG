@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A collection of highly recommended fiction and non-fiction books for readers of all kinds.">
+  <title>Book Recommendations</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Book Recommendations</h1>
+    <p>Here are the popular must-read books across different genres.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#fiction">Fiction</a></li>
+      <li><a href="#non-fiction">Non-Fiction</a></li>
+      <li><a href="#ratings">Ratings</a></li>
+      <li><a href="#media">Media</a></li>
+      <li><a href="#review-form">Submit Review</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- Fiction Section -->
+    <section id="fiction">
+      <h2>Fiction Picks</h2>
+      <ol>
+        <li>The Hunger Games – Suzanne Collins</li>
+        <li>The Alchemist – Paulo Coelho</li>
+        <li>Pride and Prejudice – Jane Austen</li>
+      </ol>
+
+      <article>
+        <h3>The Hunger Games</h3>
+        <p>
+          Set in a dystopian future, Katniss Everdeen volunteers to replace her sister in a televised fight to the death.
+        </p>
+      </article>
+
+      <article>
+        <h3>The Alchemist</h3>
+        <p>
+          Santiago, a young shepherd, embarks on a journey to find treasure, discovering the true meaning of life along the way.
+        </p>
+      </article>
+    </section>
+
+    <!-- Non-Fiction Section -->
+    <section id="non-fiction">
+      <h2>Non-Fiction Picks</h2>
+      <ul>
+        <li>Born a Crime – Trevor Noah</li>
+        <li>The Diary of a Young Girl – Anne Frank</li>
+        <li>Educated – Tara Westover</li>
+      </ul>
+
+      <article>
+        <h3>Born a Crime</h3>
+        <p>
+          Trevor Noah’s memoir about growing up mixed-race in apartheid South Africa.
+        </p>
+      </article>
+
+      <article>
+        <h3>The Diary of a Young Girl</h3>
+        <p>
+          The personal diary of Anne Frank during World War II, offering a powerful perspective on the Holocaust.
+        </p>
+      </article>
+    </section>
+
+    <!-- Table Section -->
+    <section id="ratings">
+      <h2>Book Ratings</h2>
+      <table border="1" cellpadding="8">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>The Hunger Games</td>
+            <td>Suzanne Collins</td>
+            <td>Fiction</td>
+            <td>4.7</td>
+          </tr>
+          <tr>
+            <td>The Alchemist</td>
+            <td>Paulo Coelho</td>
+            <td>Fiction</td>
+            <td>4.8</td>
+          </tr>
+          <tr>
+            <td>Born a Crime</td>
+            <td>Trevor Noah</td>
+            <td>Memoir</td>
+            <td>4.9</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media">
+      <h2>Featured Book Trailer</h2>
+      <img src="book-cover.jpg" alt="Book cover" height="200" width="400">
+      <br>
+      <video width="400" controls>
+        <source src="book-trailer.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- Form Section -->
+    <section id="review-form">
+      <h2>Submit Your Book Review</h2>
+      <form action="#" method="post">
+
+        <fieldset>
+          <legend>Your Information</legend>
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required minlength="2"><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="example@email.com" required><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Book Details</legend>
+          <label for="title">Book Title:</label>
+          <input type="text" id="title" name="title" required><br><br>
+
+          <label for="author">Author:</label>
+          <input type="text" id="author" name="author" required><br><br>
+
+          <label for="rating">Rating (1-5):</label>
+          <input type="number" id="rating" name="rating" min="1" max="5" required><br><br>
+
+          <label for="review">Review:</label><br>
+          <textarea id="review" name="review" rows="4" cols="40" required></textarea><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Consent</legend>
+          <input type="checkbox" id="consent" name="consent" required>
+          <label for="consent">I agree that my review may be published.</label>
+        </fieldset>
+        <br>
+
+        <button type="submit">Submit Review</button>
+        <button type="reset">Clear</button>
+      </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <address>
+        <p>Email: <a href="mailto:blbookclub@yahoo.com">blbookclub@yahoo.com</a></p>
+        <p>Instagram: <a href="https://instagram.com/blbookclub" target="_blank">@blbookclub</a></p>
+      </address>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Book Recommendations. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
